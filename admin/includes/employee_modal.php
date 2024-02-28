@@ -130,18 +130,21 @@
       <div class="modal-body">
         <form class="form-horizontal" method="POST" action="employee_edit.php">
           <input type="hidden" class="empid" name="id">
+
           <div class="form-group">
             <label for="edit_employeeid" class="col-sm-3 control-label">Employee ID</label>
             <div class="col-sm-9">
               <input type="text" class="form-control" id="edit_employeeid" name="employee_id">
             </div>
           </div>
+
           <div class="form-group">
             <label for="edit_firstname" class="col-sm-3 control-label">Firstname</label>
             <div class="col-sm-9">
               <input type="text" class="form-control" id="edit_firstname" name="firstname">
             </div>
           </div>
+          
           <div class="form-group">
             <label for="edit_lastname" class="col-sm-3 control-label">Lastname</label>
             <div class="col-sm-9">

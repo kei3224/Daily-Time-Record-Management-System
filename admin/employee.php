@@ -146,6 +146,7 @@
           $('.employee_id').html(response.employee_id);
           $('.del_employee_name').html(response.firstname + ' ' + response.lastname);
           $('#employee_name').html(response.firstname + ' ' + response.lastname);
+          $('#edit_employeeid').val(response.employee_id);
           $('#edit_firstname').val(response.firstname);
           $('#edit_lastname').val(response.lastname);
           $('#edit_address').val(response.address);
