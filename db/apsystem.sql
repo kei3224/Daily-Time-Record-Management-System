@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 28, 2024 at 10:09 AM
+-- Generation Time: Feb 29, 2024 at 03:33 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -42,7 +42,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`, `firstname`, `lastname`, `photo`, `created_on`) VALUES
-(1, 'admin', '$2y$10$arxFeZCN0M80geP2r56kGu8.FbhvvsvtV7rAzccQqbF6faHxETehu', 'STI - Alaminos', 'DTR', 'download.png', '2018-04-30'),
+(1, 'admin', '$2y$10$arxFeZCN0M80geP2r56kGu8.FbhvvsvtV7rAzccQqbF6faHxETehu', 'STI - Alaminos', 'DTR', 'sti.png', '2018-04-30'),
 (91, 'ken', 'sirken', 'Kenneth Rey', 'Tablang', '', '2024-02-22');
 
 -- --------------------------------------------------------
@@ -139,7 +139,7 @@ CREATE TABLE `employees` (
 
 INSERT INTO `employees` (`id`, `employee_id`, `firstname`, `lastname`, `address`, `birthdate`, `contact_info`, `gender`, `position_id`, `schedule_id`, `photo`, `created_on`) VALUES
 (5, '091T230911110', 'Kenneth Rey', 'Tablang', 'Brgy. Bolaney Alaminos City Pangasinan', '2001-06-12', '09958123933', 'Male', 1, 2, 'Untitled (150 × 150 px).png', '2024-02-22'),
-(6, '091M150410057', 'John Paul', 'Madarang', 'Tagudin, Mabini, Pangasinan', '1996-07-28', '09102637242', 'Male', 2, 2, 'download (2).png', '2024-02-22'),
+(6, '091M150410056', 'John Paul', 'Madarang', 'Tagudin, Mabini, Pangasinan', '1996-07-28', '09102637242', 'Male', 2, 2, 'download (2).png', '2024-02-22'),
 (7, '091P220901099', 'Al Gilliani ', 'Pol', 'Zaragoza Bolinao Pangasinan', '1999-02-22', '09159409899', 'Male', 1, 2, 'Screenshot 2024-02-22 152530.png', '2024-02-22');
 
 -- --------------------------------------------------------
@@ -284,7 +284,7 @@ ALTER TABLE `deductions`
 -- AUTO_INCREMENT for table `employees`
 --
 ALTER TABLE `employees`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `overtime`
